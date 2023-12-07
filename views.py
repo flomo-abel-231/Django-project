@@ -4,10 +4,10 @@ from django.http import JsonResponse
 
 def index (request):
     data = [{
-        "name" : "Abel Flomo",
+        "name": "Abel Flomo \n",
 
-        "Track" : "Backend(python)",
+        "Track" : "Backend(python) \n",
 
-        "message" : "Hi, Instructor. Thanks so much. You are doing a great job",
+        "message": "Hi, Instructor. Thanks so much. You are doing a great job \n ",
     }]
     return JsonResponse ({'data':data})
